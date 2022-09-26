@@ -1,16 +1,16 @@
-#logo{
+#logo{              /*configuration to image logo*/
     padding-top: 200px;
     text-align: center;
     background-color:white;
     width: 100%;
     
 }
-#search_box{
+#search_box{         /*center text box*/
     text-align: center;
 
 
 }
-input.search_button{
+input.search_button{         /*configuration search button*/
     background-color: #eeeeee;
     padding: 10px;
     border: 2px;
@@ -18,18 +18,18 @@ input.search_button{
     
     
 }
-div.search{
+div.search{      /*center button*/
    padding: 40px;
    text-align: center;
      
     
 }
-#text_box{
+#text_box{       /*configuration size of div contain text box*/
     width: 100%;
     padding: 2%;
     
 }
-#style_box{
+#style_box{      /*configuration text box*/
     background-color: white;
     width: 30%; 
     border-color: #dddddd;
@@ -40,7 +40,7 @@ div.search{
     outline: gray;
 }
 
-#links{
+#links{      /*links configuration , of other search pages*/
     text-align: right;
     font-size:large;
    
