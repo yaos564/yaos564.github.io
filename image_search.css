@@ -1,16 +1,16 @@
-
-#logo{
+/*style for imege search*/
+#logo{       /*configuration to image logo*/
     text-align: center;
     padding-top: 7%;
     background-color: white;
     
-}
-#search_box{
+}   
+#search_box{    /*center text box*/
     text-align: center;
     padding: 2%;
 
 }
-input.search_button{
+input.search_button{       /*configuration search button*/
     background-color: #eeeeee;
     padding: 10px;
     border: 2px;
@@ -18,19 +18,19 @@ input.search_button{
     
     
 }
-div.search{
+div.search{         /*center button*/
    padding: 40px;
    text-align: center;
      
     
 }
-#text_box{
+#text_box{      /*configuration size of div contain text box*/
   width: 100%;
   padding-top: 10%;
 
 
 }
-#style_box{
+#style_box{      /*configuration text box*/
     background-color: white;
     width: 50%;
     border-color: #dddddd;
@@ -42,7 +42,7 @@ div.search{
     
 }
 
-#links{
+#links{       /*links configuration , of other search pages*/
     text-align: right;
     font-size:medium;
    
