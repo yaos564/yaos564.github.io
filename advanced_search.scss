@@ -1,6 +1,6 @@
 
-@media(max-width: 900px){
-    #ordenation{
+@media(max-width: 900px){            /*configuration for size media, when screen is more small to 900px*/
+    #ordenation{                    /*configuration of information */
       
         display: grid;
         grid-column-gap: 20px;
@@ -10,15 +10,15 @@
         font-style: normal;
         font-weight: 400;
     }
-    #ordenation>.information{
+    #ordenation>.information{   /*configuration font size for information of search*/
  
         font-size: 0%;
     }
      
-    #text_main>#Shadow{
+    #text_main>#Shadow{         
         font-size: 0%;
       }
-   #text_main{
+   #text_main{          /*configuration top of body*/
     display: grid;
     padding-left: 1%;
     grid-column-gap:20px ;
@@ -27,8 +27,8 @@
 }
 
     }
-    @media(min-width: 901px){
-#ordenation{
+    @media(min-width: 901px){    /*configuration for size media, when screen is bigger than 900px*/
+#ordenation{        /*configuration of information */
 display: grid;
 grid-column-gap: 20px;
 grid-row-gap: 10px;
@@ -37,14 +37,14 @@ font-family: 'Product Sans';
 font-style: normal;
 font-weight: 400;
 }
-#ordenation > .information{
+#ordenation > .information{ /*configuration font size for information of search*/
     font-size: x-small;
     color: #444444;
     font-family: sans-serif;
 
 }
 
-#text_main{
+#text_main{         /*configuration top of body*/
     display: grid;
     padding-left: 1%;
     grid-column-gap:20px ;
@@ -52,7 +52,7 @@ font-weight: 400;
     grid-template-columns: 15% 35% 20%;
 }
     }
-#ordenation > .box{
+#ordenation > .box{  /*configuration for around text box*/
     width: 100%;
     text-align: center;
     margin: 0;
@@ -65,7 +65,7 @@ font-weight: 400;
     text-decoration: none;
     
 }
-#ordenation > .box >input{
+#ordenation > .box >input{   /*configuration for text box*/
     
     text-align: left;
     width: 100%;
@@ -82,7 +82,7 @@ font-weight: 400;
 
 
 
-#ordenation> .text_search{
+#ordenation> .text_search{  /*configuration for font for examples of search*/
     font-size: 13px;
     font-family: arial,sans-serif;
     font-style: inherit;
@@ -90,7 +90,7 @@ font-weight: 400;
    
    
 }
-#title{
+#title{                      /*configuration for title of webpage*/
     
         margin-left: 10px;
     
@@ -112,7 +112,7 @@ font-weight: 400;
 
 
 
-header{
+header{                     /*configuration font of header*/
     font-family: arial, sans-serif;
     padding-left: 1%;
     padding-top: 1%;
@@ -122,7 +122,7 @@ header{
 header > div{
     text-align: right;
 }
-#ordenation>.box>button{
+#ordenation>.box>button{    /*configuration button of search*/
     user-select: none;
    border-radius: 2px;
     text-align: center;
